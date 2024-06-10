@@ -26,9 +26,6 @@ class Pet:
         else:
             self._pet_type = new_pet_type
 
-# parakeet.pet_type # activate the property GETTER
-# parakeet.pet_type = "bird" # activate the pet_type SETTER
-
 class Owner:
     
     def __init__(self, name):
@@ -51,17 +48,3 @@ class Owner:
         # RETURN EM
         return sorted_pets
 
-# owner can have many pets
-# pet belongs to owner
-
-# Owner --< Pet
-
-# FOCUS
-
-# properties and setters
-
-# making things private with the _ **
-
-# syntax for methods and self
-
-# isinstance
